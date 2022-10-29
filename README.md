@@ -5,7 +5,9 @@ This little game allows you to play with the machine in a fun game of Jokem Pô.
 ## About the author
 Hi, I'm Douglas! I'm here to learn and contribute my knowledge in this Android application using Java and Kotlin.
 
-[![Linkedin Badge](https://img.shields.io/badge/-Douglas_Ramos-blue?style=flat-square&logo=github&logoColor=white&link=https://br.https://www.linkedin.com/in/douglas-ramos-156671b8/)](https://www.linkedin.com/in/douglas-ramos-156671b8)  [![Gmail Badge](https://img.shields.io/badge/-douglas.dr.ramos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:douglas.dr.ramos@gmail.com)](mailto:douglas.dr.ramos@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Douglas_Ramos-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://br.https://www.linkedin.com/in/douglas-ramos-156671b8/)](https://www.linkedin.com/in/douglas-ramos-156671b8)  [![Gmail Badge](https://img.shields.io/badge/-douglas.dr.ramos@gmail.com-c14438?style=flat-square&logo=github&logoColor=white&link=mailto:douglas.dr.ramos@gmail.com)](mailto:douglas.dr.ramos@gmail.com) 
+[![github Badge](https://img.shields.io/badge/-douglas.dr.ramos@gmail.com-c14438?style=flat-square&logo=github&logoColor=white&link=www.google.com)](www.google.com)
+
 
 
 ## <br />Technologies used
