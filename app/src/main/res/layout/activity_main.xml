@@ -18,9 +18,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:id="@+id/iv_resultado"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_margin="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,16 +28,16 @@
         app:srcCompat="@drawable/padrao" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="44dp"
         android:text="@string/tv_opcao"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="187dp" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_resultado" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -55,6 +55,7 @@
         android:id="@+id/imageView4"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:onClick="selecionadoTesoura"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -67,10 +68,11 @@
         android:layout_height="100dp"
         android:layout_margin="24dp"
         android:layout_marginTop="24dp"
+        android:onClick="selecionadoPapel"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resultado"
         app:srcCompat="@drawable/papel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
