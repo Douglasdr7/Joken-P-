@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,15 +51,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         if (
-                (opcaoApp == "tesoura" && opcaoUsuario == "papel") ||
-                        (opcaoApp == "papel" && opcaoUsuario == "pedra") ||
-                        (opcaoApp == "pedra" && opcaoUsuario == "tesoura")
+                (opcaoApp.equals("tesoura") && Objects.equals(opcaoUsuario, "papel")) ||
+                        (opcaoApp.equals("papel") && Objects.equals(opcaoUsuario, "pedra")) ||
+                        (opcaoApp.equals("pedra") && Objects.equals(opcaoUsuario, "tesoura"))
         ){
             textoResultado.setText("Você perdeu!");
         }else if (
-                (opcaoApp == "papel" && opcaoUsuario == "tesoura") ||
-                (opcaoApp == "pedra" && opcaoUsuario == "papel") ||
-                (opcaoApp == "tesoura" && opcaoUsuario == "pedra")
+                (opcaoApp.equals("papel") && Objects.equals(opcaoUsuario, "tesoura")) ||
+                (opcaoApp.equals("pedra") && Objects.equals(opcaoUsuario, "papel")) ||
+                (opcaoApp.equals("tesoura") && Objects.equals(opcaoUsuario, "pedra"))
 
         ){
             textoResultado.setText("Você Ganhou!");
